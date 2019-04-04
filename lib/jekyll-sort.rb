@@ -10,5 +10,7 @@ module JekyllSort
   autoload :Completer, "jekyll_sort/completer"
   autoload :Completion, "jekyll_sort/completion"
   autoload :Help, "jekyll_sort/help"
-  autoload :Sub, "jekyll_sort/sub"
+  autoload :Reorder, "jekyll_sort/reorder"
+  autoload :Page, "jekyll_sort/page"
+  autoload :PrevNext, "jekyll_sort/prev_next"
 end

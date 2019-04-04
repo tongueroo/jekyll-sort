@@ -3,17 +3,11 @@ module JekyllSort
     class_option :verbose, type: :boolean
     class_option :noop, type: :boolean
 
-    desc "hello NAME", "Say hello to NAME."
-    long_desc Help.text(:hello)
-    option :from, desc: "from person"
-    def hello(name="you")
-      puts "from: #{options[:from]}" if options[:from]
-      puts "Hello #{name}"
+    desc "reorder", "Updates nav_order front matter of pages that are in the nav"
+    long_desc Help.text(:reorder)
+    def reorder
+      Reorder.new(options).run
     end
-
-    desc "sub SUBCOMMAND", "sub subcommands"
-    long_desc Help.text(:sub)
-    subcommand "sub", Sub
 
     desc "completion *PARAMS", "Prints words for auto-completion."
     long_desc Help.text("completion")
