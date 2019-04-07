@@ -50,7 +50,6 @@ module JekyllSort
 
       front_matter["nav_order"] = @nav_order
       content = new_content(front_matter, parsed.content)
-      content = remove_old_prev_next_links(content)
       content = ensure_new_prev_next_links(content)
     end
 
@@ -61,6 +60,7 @@ module JekyllSort
       front_matter.delete("nav_order")
       content = new_content(front_matter, parsed.content)
       content = remove_prev_next_link(content)
+      content = remove_old_prev_next_links(content)
     end
 
     def new_content(front_matter, content)
