@@ -1,6 +1,6 @@
 # JekyllSort
 
-[![Gem Version](https://badge.fury.io/rb/GEMNAME.png)](http://badge.fury.io/rb/jekyll-sort)
+[![Gem Version](https://badge.fury.io/rb/jekyll-sort.png)](http://badge.fury.io/rb/jekyll-sort)
 
 Updates the nav_order in front matter of pages that are in the subnav links.
 
