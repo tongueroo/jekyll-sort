@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = JekyllSort::VERSION
   spec.authors       = ["Tung Nguyen"]
   spec.email         = ["tongueroo@gmail.com"]
-  spec.summary       = "Generated with cli-template tool. Please write a gem summary"
-  spec.description   = "Generated with cli-template tool. Write a longer description or delete this line."
-  spec.homepage      = ""
+  spec.summary       = "Updates the nav_order in front matter of pages that are in the subnav links"
+  spec.homepage      = "https://github.com/tongueroo/jekyll-sort"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
