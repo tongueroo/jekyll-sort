@@ -6,6 +6,7 @@ Updates the nav_order in front matter of pages that are in the subnav links.
 
 ## Usage
 
+    cd docs # jekyll project
     jekyll-sort reorder
 
 ## Installation
