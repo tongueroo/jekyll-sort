@@ -1,20 +1,12 @@
 # JekyllSort
 
 [![Gem Version](https://badge.fury.io/rb/GEMNAME.png)](http://badge.fury.io/rb/GEMNAME)
-[![CircleCI](https://circleci.com/gh/USER/REPO.svg?style=svg)](https://circleci.com/gh/USER/REPO)
-[![Dependency Status](https://gemnasium.com/USER/REPO.png)](https://gemnasium.com/USER/REPO)
-[![Coverage Status](https://coveralls.io/repos/USER/REPO/badge.png)](https://coveralls.io/r/USER/REPO)
-[![Join the chat at https://gitter.im/USER/REPO](https://badges.gitter.im/USER/REPO.svg)](https://gitter.im/USER/REPO?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Support](https://img.shields.io/badge/get-support-blue.svg)](https://boltops.com?utm_source=badge&utm_medium=badge&utm_campaign=cli-template)
 
-TODO: Write a gem description
+Updates the nav_order in front matter of pages that are in the subnav links.
 
 ## Usage
 
-    jekyll-sort hello yourname
-    jekyll-sort sub:goodbye yourname
-
-The CLI tool also detects and tasks in the current folder's Rakefile and delegate to those tasks.
+    jekyll-sort reorder
 
 ## Installation
 
