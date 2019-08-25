@@ -6,8 +6,8 @@ require "jekyll_sort/version"
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-sort"
   spec.version       = JekyllSort::VERSION
-  spec.authors       = ["Tung Nguyen"]
-  spec.email         = ["tongueroo@gmail.com"]
+  spec.author        = "Tung Nguyen"
+  spec.email         = "tongueroo@gmail.com"
   spec.summary       = "Updates the nav_order in front matter of pages that are in the subnav links"
   spec.homepage      = "https://github.com/tongueroo/jekyll-sort"
   spec.license       = "MIT"
@@ -19,6 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activesupport"
+  spec.add_dependency "front_matter_parser"
+  spec.add_dependency "nokogiri"
   spec.add_dependency "rainbow"
   spec.add_dependency "thor"
 
