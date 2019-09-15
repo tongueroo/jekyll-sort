@@ -74,7 +74,7 @@ module JekyllSort
       [front_matter, parsed]
     end
 
-    PREV_NEXT_MARKDOWN = "\n{% include prev_next.md %}"
+    PREV_NEXT_MARKDOWN = "\n{% include prev_next.md %}\n"
 
     def remove_prev_next_link(content)
       content.sub(PREV_NEXT_MARKDOWN, '')
